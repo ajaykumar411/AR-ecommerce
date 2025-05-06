@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: '97667873-e3a7-4a7f-9f7e-e78a61906912'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'ecommerce'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'ARecommerce'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
